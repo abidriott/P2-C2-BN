@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ButtonNavigation" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="android:statusBarColor">@color/blue</item>
+    </style>
+
+    <style name="TextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Theme.AppMenuButton" parent="Base.Theme.AppMenuButton" />
+    <style name="App.Custom.Indicatior" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/yellow</item>
+    </style>
+</resources>
